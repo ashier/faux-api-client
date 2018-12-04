@@ -38,18 +38,18 @@ fauxApiClient.getConfiguration()
 # Available commands
 ```javascript
 public async aliasUpdateUrlTables(): Promise<IFauxApiResponse>;
+public async callFunction(functionName: string, ...args: any[]): Promise<IFauxApiResponse>;
+public async gatewayStatus(): Promise<IFauxApiResponse>;
 public async getBackupConfiguration(): Promise<IFauxApiResponse>;
 public async getBackupConfigurationList(): Promise<IFauxApiResponse>;
 public async getConfiguration(): Promise<IFauxApiResponse>;
+public async getRule(ruleNumber: number): Promise<IFauxApiResponse>;
+public async interfaceStatistics(interfaceName: string): Promise<IFauxApiResponse>;
 public async patchConfiguration(configuration: any): Promise<IFauxApiResponse>;
+public async rebootSystem(): Promise<IFauxApiResponse>;
 public async reloadConfiguration(): Promise<IFauxApiResponse>;
 public async restoreConfiguration(configurationFilePath: string): Promise<IFauxApiResponse>;
-public async setConfiguration(configuration: any): Promise<IFauxApiResponse>;
-public async callFunction(functionName: string, ...args: any[]): Promise<IFauxApiResponse>;
-public async gatewayStatus(): Promise<IFauxApiResponse>;
-public async interfaceStatistics(interfaceName: string): Promise<IFauxApiResponse>;
-public async getRule(ruleNumber: number): Promise<IFauxApiResponse>;
 public async sendEvent(event: any): Promise<IFauxApiResponse>;
-public async rebootSystem(): Promise<IFauxApiResponse>;
+public async setConfiguration(configuration: any): Promise<IFauxApiResponse>;
 public async systemStatistics(): Promise<IFauxApiResponse>;
 ```
