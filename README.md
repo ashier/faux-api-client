@@ -12,7 +12,7 @@ First `npm install --save faux-api-client`
 
 Then, in your project:
 ```javascript
-import {FauxApiClient} from 'faux-api-client';
+import {FauxApiClient, IFauxApiResponse} from 'faux-api-client';
 
 const fauxApiClient = new FauxApiClient(
     '<PFSense Server IP Address>',
@@ -21,7 +21,7 @@ const fauxApiClient = new FauxApiClient(
 );
 
 fauxApiClient.getConfiguration()
-    .then((success: any) => {
+    .then((success: IFauxApiResponse) => {
         console.log('#################################################');
         console.log('#                SUCCESS                        #');
         console.log('#################################################');

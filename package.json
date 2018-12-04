@@ -1,8 +1,9 @@
 {
   "name": "faux-api-client",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "NodeJS/Typescript PFSense fauxApi Client",
-  "main": "index.js",
+  "main": "bin/fauxApiClient.js",
+  "types": "bin/fauxApiClient.d.ts",
   "scripts": {
     "test": "karma start",
     "dev": "webpack-dev-server --inline --hot",

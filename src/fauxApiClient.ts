@@ -4,6 +4,8 @@ import {IFauxApiHeaders} from './interfaces/IFauxApiHeaders';
 import {IFauxApiResponse} from './interfaces/IFauxApiResponse';
 import {IFauxApiFunctionCallBody} from './interfaces/IFauxApiFunctionCallBody';
 
+export {IFauxApiResponse} from './interfaces/IFauxApiResponse';
+
 export class FauxApiClient {
     private readonly versionPath: string = 'fauxapi/v1';
     
