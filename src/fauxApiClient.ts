@@ -50,7 +50,7 @@ export class FauxApiClient {
         };
 
         if (body) {
-            options.body = JSON.stringify(body);
+            options.body = body;
         }
 
         return options;
