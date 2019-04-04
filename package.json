@@ -1,6 +1,6 @@
 {
   "name": "faux-api-client",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "NodeJS/Typescript PFSense fauxApi Client",
   "main": "bin/fauxApiClient.js",
   "types": "bin/fauxApiClient.d.ts",
